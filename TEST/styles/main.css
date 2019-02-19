@@ -58,12 +58,8 @@ nav li a.current, nav li a:hover{
 
 /*Main*/
 
-.premiere_presentation {
-    display: flex;
-}
-
-.premiere_presentation_partie1 {
-    flex-direction: row;
+.premiere {
+    display: flex
 }
 
 
@@ -72,6 +68,5 @@ nav li a.current, nav li a:hover{
 
 
 
-
-
+,
 
