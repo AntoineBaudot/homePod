@@ -1,7 +1,56 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", "Arial", sans-serif;
+    font-family: "SF Pro Text", "Arial", sans-serif;
     font-size: 16px;
     color: #444;
 }
+
+/* HEADER */
+
+header{
+    background: #373737;
+    height: 70px;
+    
+  }
+
+header nav {
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+header nav a img {
+    width: 36px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+}
+
+header ul li a {
+    margin: 0px 24px;
+    padding: 0 5px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom:1px solid #ffffff6c;
+    
+}
+
+header ul li a.achat {
+    border-radius :20px 20px;
+    border: 1px solid #0070C9;
+    background-color: #0070C9;
+}
+  
+nav li a.current, nav li a:hover{
+    border-bottom:1px solid #ffffff;
+}
+
+
