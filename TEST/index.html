@@ -1,38 +1,62 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr">   
     <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Descption de la page">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta charset="utf-8"/>
+        <title>HomePod</title>
+        <meta name="HomePod" content="description de ma page"/>
         <link rel="stylesheet" href="styles/main.css">
-        <title>Document</title>
     </head>
     <body>
-        <header>
-            <nav class="container">
+        <header >
+            <nav class="containerMenu1 ">
                 <a href="index.html" title="HomePod.fr">
-                    <img src="image/logo.png" alt="HomePod">
+                    <img src="images/logo.png" alt="HomePod">
                 </a>
-                <ul class="container_flex">
-                  <li><a href="index.html" title="Présentation" class="current">Présentation</a></li>
-                  <li><a href="caracteristiques.html" title="Caractéristiques">Caractéristiques</a></li>
-                  <li><a class="achat" href="achat.html" title="Achat">Acheter maintenant</a></li>
-                </ul>
+                <div class="containerMenu2">
+                    <ul class="container container_flex">
+                        <li>
+                            <a href="index.html" title="Présentation" class="current">Présentation</a>
+                        </li>
+                        <li>
+                            <a href="caracteristiques.html" title="Caractéristiques">Caractéristiques</a>
+                        </li>
+                        <button>
+                            <a class="achat" href="achat.html" title="Achat">Acheter maintenant</a>
+                        </button>
+                    </ul>
+                </div>
             </nav>
         </header>
+
         <main>
-            <div class="container premiere">
-                <div class="premiere_presentation">
-                    <div class="container_presentation_partie1">
+            <div class="container premier">
+                <div class="premierPos">
+                    <div class="premier_titre_texte">
                         <h1>Il y a un nouveau son à la maison.</h1>
-                        <img src="image/homepod_carac.png" alt="HomePod"> 
+                        <p>
+                            Avec un son incroyable, une conscience spatiale et une vaste librairie d'Apple Music, 
+                            HomePod porte l'enceinte à un tout autre niveau.
+                        </p>
+                        <button>
+                            <a class="video_pub" href="videopub.html" title="pub">Regarder les films</a>
+                        </button>
                     </div>
+                    <div class="premier_titre_image">
+                        <img src="images/homepod_carac.png" alt="HomePod">
+                    </div>
+                </div>
+                <div class="deuxiemePos">
+                    <div class="deuxieme_titre_image">
+                        <img src="images/homepod_top.png" alt="HomePod">
+                    </div>
+                    <div class="deuxieme_titre_texte">
+                        <h1>Le nouveau son du HomePod.</h1>
+                        <p>
+                            HomePod est un haut-parleur puissant dont le son est étonnant, s'adapte à l'endroit où il est joué. Avec Apple Music, vous avez un accès instantané à l'un des plus grands catalogues musicaux du monde. Et avec l'intelligence de Siri, vous le contrôlez grâce à une interaction vocale naturelle. 1 HomePod porte l'expérience d'écoute à un tout autre niveau. Et ce n'est que le début.
+                        </p> 
+                    </div>  
                 </div>
             </div>
         </main>
-        
     </body>
 </html>
-    
-   
