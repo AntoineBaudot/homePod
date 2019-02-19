@@ -5,22 +5,75 @@
         <meta name="description" content="Descption de la page">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/achat.css">
         <title>Document</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="index.html" title="HomePod.fr">
-                    <img src="image/logo.png" alt="HomePod">
-                </a>
-                <ul class="container container_flex">
-                  <li><a href="index.html" title="Présentation" class="current">Présentation</a></li>
-                  <li><a href="caracteristiques.html" title="Caractéristiques">Caractéristiques</a></li>
-                  <li><a class="achat" href="achat.html" title="Achat">Acheter maintenant</a></li>
-                </ul>
-            </nav>
-        </header>
-    
+      <header >
+          <nav class="containerMenu1 ">
+              <a href="index.html" title="HomePod.fr">
+                  <img src="images/logo.png" alt="HomePod">
+              </a>
+              <div class="containerMenu2">
+                  <ul class="container container_flex">
+                      <li>
+                          <a href="index.html" title="Présentation" class="current">Présentation</a>
+                      </li>
+                      <li>
+                          <a href="caracteristiques.html" title="Caractéristiques">Caractéristiques</a>
+                      </li>
+                      <button>
+                          <a class="achat" href="achat.html" title="Achat">Acheter maintenant</a>
+                      </button>
+                  </ul>
+              </div>
+          </nav>
+      </header>
+        <main class="container">
+          <div class="title">
+            <h2>Acheter un HomePod</h2>
+          </div>
+          <div class="slider">
+             <div class="sliderContainer" style="left:0">
+               <img alt="HomePodLight" src="images/achat/hp_side_light.jpg"></img>
+               <img alt="HomePodDark" src="images/achat/hp_side_dark.jpg"></img>
+               <img alt="HomePodZoom" src="images/achat/hp_zoom.jpg"></img>
+               <img alt="HomePodTop" src="images/achat/hp_top.jpg"></img>
+               <img id="indoor" alt="HomePodIndoor" src="images/achat/hp_pres_light.jpg"></img>
+               <img id="comp" alt="HomePodComparison" src="images/achat/hp_comp.jpg"></img>
+             </div>
+             <div class="navigation">
+               <a href="#" title="previous" class="previous"><</a>
+               <a href="#" title="next" class="next">></a>
+               <ul class="dots">
+         					<li><a href="#" title="Image 1" class="current"> </a></li>
+         					<li><a href="#" title="Image 2"> </a></li>
+         					<li><a href="#" title="Image 3"> </a></li>
+         					<li><a href="#" title="Image 4"> </a></li>
+         					<li><a href="#" title="Image 5"> </a></li>
+         					<li><a href="#" title="Image 6"> </a></li>
+         			 </ul>
+             </div>
+         </div>
+         <div class="music">
+           <h2>Il connaît la musique.</h2>
+           <p>Le HomePod est l’écrin idéal pour l’immense répertoire d’Apple Music. Pour écouter toutes les chansons qui vous passent dans la tête, il vous suffit de demander à Siri.</p>
+         </div>
+         <div class="musicExamples">
+           <img alt="Queen" src="images/achat/queen.jpg"></img>
+           <img alt="ImagineDragons" src="images/achat/imag_drag.jpg"></img>
+           <img alt="NickyMinaj" src="images/achat/nicky_m.jpg"></img>
+           <img alt="TaylorSwift" src="images/achat/taylor_s.jpg"></img>
+           <img alt="PinkFloyd" src="images/achat/pink_floyd.jpg"></img>
+           <img alt="ShawnMendes" src="images/achat/shawn_m.jpg"></img>
+           <img alt="DerekMinor" src="images/achat/derek_minor.jpg"></img>
+           <img alt="TheGreatest" src="images/achat/the_greatest.jpg"></img>
+           <img alt="DepecheMode" src="images/achat/depeche_mode.jpg"></img>
+           <img alt="Journey" src="images/achat/journey.jpg"></img>
+           <img alt="ChrisStapleton" src="images/achat/chris_st.jpg"></img>
+           <img alt="Moana" src="images/achat/moana.jpg"></img>
+           <img alt="Erra" src="images/achat/erra.jpg"></img>
+         </div>
+        </main>
     </body>
 </html>
