@@ -6,19 +6,16 @@ body {
     color: #444;
 }
 
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 
 
-/*footer*/
 
-footer div.bande{
-  background: #373737;
-  height: 290px;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
 
 /* HEADER */
 
@@ -79,13 +76,94 @@ header nav ul li a.current, nav li a:hover{
 /* HEADER */
 
 /* MAIN */
-
-
+.premier {
+    margin-top: 50px;
+}
 .premierPos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.premier_titre_texte {
+    margin-top: 0px;
+    width: 400px;
+}
+
+.premier_titre_texte h1{
+    font-size: 40px;
+    line-height: 60px;
+    
+}
+
+.premier_titre_texte p{
+    font-size: 18px;
+    line-height: 27px;  
+}
+
+.premier_titre_image {
+    margin-top: 0px;
+    margin-right: 0;
+}
+
+.premier_titre_texte button {
+    background-color:#0171C7;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.premier_titre_texte button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+
+
+
+.deuxiemePos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deuxieme_titre_texte {
+    margin-top: 200px;
+    width: 400px;
+}
+
+.deuxieme_titre_texte h1{
+    font-size: 32px;
+    line-height: 38px;
+    
+}
+
+.deuxieme_titre_texte p{
+    font-size: 18px;
+    line-height: 27px;  
+}
+
+.deuxieme_titre_image {
+    margin-top: 0px;
+    margin-right: 0;
+}
+
+.deuxieme_titre_image img {
+    width : 500px;
+}
+
+
+
+/*
+.premier {
     position: relative;
 }
-    
-.premier_titre_image h1 {
+
+ 
+.premier_titre_texte {
     position: absolute;
     top: 100px;
     width: 340px;
@@ -96,46 +174,6 @@ header nav ul li a.current, nav li a:hover{
     top: 100px;
     right: 0px;
     width: 381px;
-footer div.livraison, div.retrait, div.financement, div.aide {
-  width: 250px;
-  display:flex;
-  text-align: center;
-  margin: 15px;
-}
-footer  .clearBoth{
-  clear: both;
-}
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style:none;
 
 }
-span.link{
-  text-decoration: none;
-}
-span.link:hover{
-  text-decoration:underline;
-}
-
-a.ac-gf-block{
-  text-decoration: none;
-  color: white;
-}
-.buystrip{
-  width: 250px;
-}
-.buystrip1{
-  width: 160px;
-}
-    
-
-.buystrip2{
-  width: 40px;
-  margin-top: 10px;
-}
-.buystrip3{
-  width: 60px;
-  margin-top:10px;
-}
+*/
