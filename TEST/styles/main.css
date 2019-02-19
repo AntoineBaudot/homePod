@@ -6,6 +6,11 @@ body {
     color: #444;
 }
 
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 header{
@@ -17,9 +22,7 @@ header{
 header nav {
     display: flex; 
     align-items: center;
-    justify-content: space-around;
-
-    
+    justify-content: space-between;
 }
 
 header nav a img {
@@ -51,6 +54,24 @@ header ul li a.achat {
   
 nav li a.current, nav li a:hover{
     border-bottom:1px solid #ffffff;
+} 
+
+/*Main*/
+
+.premiere_presentation {
+    display: flex;
 }
+
+.premiere_presentation_partie1 {
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
 
 
