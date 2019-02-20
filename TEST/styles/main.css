@@ -13,7 +13,7 @@ body {
 
 /* HEADER */
 
-////
+
 
 
 
@@ -21,7 +21,7 @@ body {
 
 header{
     background-color: #333333;
-
+    width: 100%;
 }
 
 header img {
@@ -30,7 +30,7 @@ header img {
 
 .containerMenu1 {
     width: 1024px;
-    height: 70px;
+    height: 48px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@ nav ul {
     justify-content: flex-end;
     list-style: none;
 }
-  
+
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -103,6 +103,10 @@ header nav ul li a.current, nav li a:hover{
 .premier_titre_image {
     margin-top: 0px;
     margin-right: 0;
+    width: 420px;
+    height: 552px;
+    background: url("../images/presentation/homepod_carac.png" )no-repeat;
+    
 }
 
 .premier_titre_texte button {
@@ -128,6 +132,7 @@ header nav ul li a.current, nav li a:hover{
 .deuxiemePos {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .deuxieme_titre_texte {
@@ -152,7 +157,178 @@ header nav ul li a.current, nav li a:hover{
 }
 
 .deuxieme_titre_image img {
+    margin-top:0;
+    margin-left: 0;
     width : 500px;
+    height: 500px;
+}
+
+/* SLIDER */
+
+.slider{
+margin:20px 0px;
+width:100%;
+height:510px;
+position:relative;
+overflow:hidden;
+margin-bottom: 100px;
+}
+
+.sliderContainer{
+position:absolute;
+top : 0px;
+display:flex;
+transition: opacity .5s ease-in;
+will-change: left;
+
+}
+
+
+.left{
+text-decoration: none;
+border: none;
+position: absolute;
+left: 25px;
+top: 50%;
+font-size: 20px;
+color: black;
+background-color: none;
+background-color: rgba(255, 255, 255, 0);
+
+}
+.right{
+text-decoration: none;
+border: none;
+position: absolute;
+right: 20px;
+top: 50%;
+font-size: 25px;
+color: black;
+background-color: rgba(255, 255, 255, 0);
+
+}
+
+.pagination{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    right: 0px;
+    bottom: 0px;
+    list-style: none;
+}
+
+.point{
+height: 10px;
+width: 10px;
+border-radius: 50%;
+border-color: #333333;
+margin: 0px 5px;
+background-color: #BCBCBC;
+}
+.point.current{
+background: #333333;
+}
+/* SLIDER */
+
+/* VIDEO */
+
+.video {
+    position: relative;
+    margin-bottom: 100px;  
+}
+
+.video.button {
+    position: absolute;
+    border: none;
+    background: none; 
+}
+
+/* ARTICLE */
+
+article.column {
+    display: flex;
+    align-items: space-between;
+    margin-bottom: 50px;
+}
+
+.article1_3 {
+    width: 304px;
+    margin: 20px;
+    text-align: center;
+}
+
+.article1_3 h3 {
+    font-size: 22px;
+    line-height: 33px;
+    color: black;
+}
+
+.article1_3 p {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #707070;
+}
+
+.article1_3 button {
+    background-color:white;
+    border-radius: 15px;
+    border: 1px solid #0171C7;
+    text-decoration: none;
+}
+
+.article1_3 button a {
+    text-decoration: none;
+    color: #0171C7;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.audio h2 {
+    width: 500px;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.icon_audio {
+    display: flex;
+    justify-content: center;
+}
+.icon_audio img {
+    margin: 0 5px;
+    margin-bottom: 100px;
+}
+
+.assistant {
+    display: flex;
+    justify-content: space-between;
+}
+.assistant .assitant_image img{
+    margin-top: 0px;
+    margin-right: 0;
+    
+    
+}
+
+.assistant .assistant_text {
+    margin-top: 35px;
+    
+    width: 370px;
+}
+
+.assistant .assistant_text h2 {
+    font-size: 22px;
+    line-height: 33px;
+    color: black;
+}
+
+.assistant .assistant_text p {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #707070;
 }
 
 
