@@ -30,18 +30,18 @@ header img {
     align-items: center;
     justify-content: space-between;
   }
-  
+
 header .containerMenu2 a {
     margin: 10px;
 }
-  
-  
+
+
 nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
 }
-  
+
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -89,12 +89,12 @@ header .containerMenu1 {
     align-items: center;
     justify-content: space-between;
   }
-  
+
 header .containerMenu2 a {
     margin: 10px;
 }
-  
-  
+
+
 header nav ul {
     display: flex;
     justify-content: flex-end;
@@ -144,13 +144,13 @@ header nav ul li a.current, nav li a:hover{
 
 .premier_titre_texte h1{
     font-size: 40px;
-    line-height: 60px;
-    
+    line-height: 20px;
+
 }
 
 .premier_titre_texte p{
     font-size: 18px;
-    line-height: 27px;  
+    line-height: 27px;
 }
 
 .premier_titre_image {
@@ -159,7 +159,7 @@ header nav ul li a.current, nav li a:hover{
     width: 420px;
     height: 552px;
     background: url("../images/presentation/homepod_carac.png" )no-repeat;
-    
+
 }
 
 .premier_titre_texte button {
@@ -196,12 +196,12 @@ header nav ul li a.current, nav li a:hover{
 .deuxieme_titre_texte h1{
     font-size: 32px;
     line-height: 38px;
-    
+
 }
 
 .deuxieme_titre_texte p{
     font-size: 18px;
-    line-height: 27px;  
+    line-height: 27px;
 }
 
 .deuxieme_titre_image {
@@ -285,7 +285,7 @@ header nav ul li a.current, nav li a:hover{
 /* VIDEO */
 
 .video {
-    margin-bottom: 50px;  
+    margin-bottom: 50px;
 }
 
 
@@ -357,13 +357,13 @@ article.column {
 .assistant .assitant_image img{
     margin-top: 0px;
     margin-right: 0;
-    
-    
+
+
 }
 
 .assistant .assistant_text {
     margin-top: 35px;
-    
+
     width: 370px;
 }
 
@@ -384,4 +384,3 @@ article.column {
     background-size: 100%;
     height: 1024px;
 }
-
