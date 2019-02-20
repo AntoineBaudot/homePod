@@ -49,7 +49,7 @@ nav ul li a {
     font-size: 18px;
 }
 
-header nav ul button{
+header nav ul .button_achat{
     background-color:#0171C7;
     border-radius: 15px;
     color: white;
@@ -57,7 +57,7 @@ header nav ul button{
     text-decoration: none;
 }
 
-header nav ul button a {
+header nav ul .button_achat a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -66,9 +66,6 @@ header nav ul button a {
 header nav ul li a.current, nav li a:hover{
     border-bottom:1px solid #ffffff;
 }
-
-
-
 
 /* HEADER */
 
