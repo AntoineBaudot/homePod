@@ -130,6 +130,7 @@ div.title{
 #hpPres img:hover{
   transform:scale(2);
   z-index: 10;
+    transition: all .0,5s;
 }
 
 div.music h2{
@@ -248,6 +249,9 @@ div.hey_siri_box p{
   font-weight: 500;
 }*/
 
+.audio{
+  margin-top: 7%;
+}
 .audio h2 {
   width: 500px;
   font-size: 30px;
@@ -274,4 +278,132 @@ div.hey_siri_box p{
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+
+/* css caracteristique ancienne page */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #1d1d1b;
+    font-size: 400%;
+}
+.containr{
+    width: 980px;
+    margin: 0 auto;
+}
+.imghomepod{
+    width: 100%;
+
+}
+.modele{
+    display:flex;
+    flex-direction:column;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    color: black;
+   justify-content: space-evenly;
+}
+.img p{
+    text-align: center;
+}
+.minititle{
+    color: #1d1d1b;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-content:flex-start;
+    margin-top: 6%;
+    text-align: center;
+}
+.imgboite{
+  width: auto;
+  margin-left: 65%;
+  margin-top: 20%;
+}
+.minititle .info {
+    width: 33%;
+}
+.minititle .info h2{
+  cursor: pointer;
+}
+.minititle .info p{
+    overflow: hidden;
+    transition: all .3s;
+}
+.boite{
+    color: white;
+    margin-left: 30%;
+    font-size: 140%;
+    margin-right: 20%;
+}
+.titlecof{
+    color:white;
+    margin-top: 45%;
+    font-size: 220%;
+    font-weight: bold;
+}
+.titlecoff{
+  color: #1d1d1b;
+  margin-top: 25%;
+  font-size: 220%;
+  font-weight: bold;
+  margin-left: 25%;
+  width: 100px;
+}
+.imgecolo{
+  margin-right: 50%;
+  margin-top: 170%;
+  height: auto;
+  width: auto;
+}
+
+.txtcolo{
+  margin-top: 50%;
+}
+.textcoffimg{
+    position: relative;
+    margin-top:3%;
+}
+.textcoffimg::before{
+  content: '';
+  background: url(../images/hompod_siri.png);
+  background-position: center;
+  position: absolute;
+  top:0;
+  height:500px;
+  width: auto;
+  bottom:0;
+  left:-100%;
+  right:-100%;
+
+}
+.textcoff{
+    position: absolute;
+    margin-left: 20%;
+}
+.ecolo{
+    margin-left: 15%;
+    color:#1d1d1b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 68%;
+}
+
+.colo{
+    display: flex;
+    flex-direction: space-between;
 }
