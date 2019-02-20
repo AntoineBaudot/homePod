@@ -98,7 +98,6 @@ div.title{
   justify-content: space-around;
 }
 
-
 .button{
   background: lightGray;
   width: 15px;
@@ -107,10 +106,10 @@ div.title{
 }
 
 .darkGray{
-  background: gray;
-  width: 13px;
-  height: 13px;
-  border: solid 2px black;
+  background: #1d1d1b;
+  width: 8px;
+  height: 8px;
+  border: solid 4px gray;
 }
 
 /*Image bar*/
@@ -129,77 +128,9 @@ div.title{
   transition: transform 1s;
 }
 #hpPres img:hover{
-  transform:scale(1.5);
+  transform:scale(2);
   z-index: 10;
 }
-
-/*.slider{
- margin:0 auto;
- height: 400px;
- width: 230px;
- position: relative;
- overflow: hidden;
-}
-.sliderContainer{
- position: absolute;
- display: flex;
- transition: ease-in .5s all;
- will-change: left;
-}
-
-.sliderContainer img{
- margin: 0 20px;
-}
-
-.previous{
- position: absolute;
- top: 20%;
- left: 0px;
- background: gray;
- color: #d0d0d0;
- font-size: 20px;
- padding: 8px;
- border-radius: 50%;
- text-decoration: none;
-}
-
-.next{
- position: absolute;
- top: 20%;
- right: 0px;
- background: gray;
- color: #d0d0d0;
- font-size: 20px;
- padding: 8px;
- border-radius: 50%;
- text-decoration: none;
-}
-
-
-.dots{
- position: absolute;
- display:flex;
- top: 50%;
- right: 5px;
- padding: 2px;
- left:50%;
- transform: translateX(-50%);
-}
-.dots li{
- display:inline-block;
- justify-content: space-between;
-}
-.dots li a{
- background-color: #d0d0d0;
- width: 20px;
- height: 20px;
- text-decoration: none;
- padding: 1px 8px;
- border-radius: 50%;
-}
-.dots li a.current{
- background-color: red;
-}*/
 
 div.music h2{
   color: #1d1d1b;
