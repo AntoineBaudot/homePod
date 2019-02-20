@@ -1,3 +1,85 @@
+header{
+    background-color: #333333;
+
+}
+
+header img {
+    width: 36px;
+}
+
+.containerMenu1 {
+    width: 1024px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+header .containerMenu2 a {
+    margin: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+header nav ul button{
+    background-color:#0171C7;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    text-decoration: none;
+ }
+
+header nav ul button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header nav ul li a.current, nav li a:hover{
+    border-bottom:1px solid #ffffff;
+  }
+
+/* HEADER */
+
+/* MAIN */
+
+
+.premierPos {
+    position: relative;
+}
+
+.premier_titre_image h1 {
+    position: absolute;
+    top: 100px;
+    width: 340px;
+}
+
+.premier img {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 381px;
+
+}
+
+
+
+
+/*moi */
+
 body {
     margin: 0;
     padding: 0;
@@ -36,7 +118,7 @@ header .containerMenu1 {
     align-items: center;
     justify-content: space-between;
   }
-  
+
 header .containerMenu2 a {
     margin: 10px;
 }
@@ -53,6 +135,10 @@ header nav ul li a {
     color: white;
     margin: 10px;
     font-size: 18px;
+}
+
+nav li a.current, nav li a:hover{
+    border-bottom:1px solid #ffffff;
 }
 
 header nav ul button{
@@ -92,12 +178,12 @@ main .premier .premierPos .premier_titre_texte {
 main .premier .premierPos .premier_titre_texte h1{
     font-size: 40px;
     line-height: 60px;
-    
+
 }
 
 main .premier .premierPos .premier_titre_texte p{
     font-size: 18px;
-    line-height: 27px;  
+    line-height: 27px;
 }
 
 main .premier .premierPos .premier_titre_image {
@@ -106,7 +192,7 @@ main .premier .premierPos .premier_titre_image {
     width: 420px;
     height: 552px;
     background: url("../images/presentation/homepod_carac.png" )no-repeat;
-    
+
 }
 
 main .premier .premierPos .premier_titre_texte button {
@@ -143,12 +229,12 @@ main .premier .deuxiemePos .deuxieme_titre_texte {
 main .premier .deuxiemePos .deuxieme_titre_texte h1{
     font-size: 32px;
     line-height: 38px;
-    
+
 }
 
 main .premier .deuxiemePos .deuxieme_titre_texte p{
     font-size: 18px;
-    line-height: 27px;  
+    line-height: 27px;
 }
 
 main .premier .deuxiemePos .deuxieme_titre_image {
@@ -303,13 +389,13 @@ main .audio .assistant {
 .assistant .assitant_image img{
     margin-top: 0px;
     margin-right: 0;
-    
-    
+
+
 }
 
 .assistant .assistant_text {
     margin-top: 35px;
-    
+
     width: 370px;
 }
 
@@ -332,7 +418,7 @@ main .audio .assistant {
     position: relative;
 }
 
- 
+
 .premier_titre_texte {
     position: absolute;
     top: 100px;
