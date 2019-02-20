@@ -1,4 +1,4 @@
-const sliderImages 		  = document.querySelectorAll(".sliderContainer img")
+/*const sliderImages 		  = document.querySelectorAll(".sliderContainer img")
 const sliderContainer = document.querySelector(".sliderContainer")
 const previousButton  = document.querySelector(".previous")
 const nextButton 	  = document.querySelector(".next")
@@ -56,4 +56,4 @@ for(let i = 0; i < dots.length; i++){
 		display(currentPicture)
 	})
 
-}
+}*/
