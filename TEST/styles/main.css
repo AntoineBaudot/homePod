@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: "SF Pro Text", "Arial", sans-serif;
     font-size: 16px;
-    color: #444;
+    color: #1D1D1D;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 
 header{
     background-color: #333333;
-
+    
 }
 
 header img {
@@ -29,7 +29,7 @@ header img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
 
 header .containerMenu2 a {
     margin: 10px;
@@ -49,15 +49,15 @@ nav ul li a {
     font-size: 18px;
 }
 
-header nav ul button{
+header nav ul .button_achat{
     background-color:#0171C7;
     border-radius: 15px;
     color: white;
     border: none;
     text-decoration: none;
- }
+}
 
-header nav ul button a {
+header nav ul .button_achat a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -65,10 +65,7 @@ header nav ul button a {
 
 header nav ul li a.current, nav li a:hover{
     border-bottom:1px solid #ffffff;
-  }
-
-
-
+}
 
 /* HEADER */
 
@@ -88,7 +85,7 @@ header .containerMenu1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
 
 header .containerMenu2 a {
     margin: 10px;
@@ -108,15 +105,15 @@ header nav ul li a {
     font-size: 18px;
 }
 
-header nav ul button{
+header nav ul .button_achat{
     background-color:#0171C7;
     border-radius: 15px;
     color: white;
     border: none;
     text-decoration: none;
- }
+}
 
-header nav ul button a {
+header nav ul .button_achat a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -124,7 +121,7 @@ header nav ul button a {
 
 header nav ul li a.current, nav li a:hover{
     border-bottom:1px solid #ffffff;
-  }
+}
 
 /* HEADER */
 
@@ -145,7 +142,7 @@ header nav ul li a.current, nav li a:hover{
 .premier_titre_texte h1{
     font-size: 40px;
     line-height: 20px;
-
+    
 }
 
 .premier_titre_texte p{
@@ -159,10 +156,10 @@ header nav ul li a.current, nav li a:hover{
     width: 420px;
     height: 552px;
     background: url("../images/presentation/homepod_carac.png" )no-repeat;
-
+    
 }
 
-.premier_titre_texte button {
+.premier_titre_texte a {
     background-color:#0171C7;
     border-radius: 15px;
     color: white;
@@ -170,7 +167,7 @@ header nav ul li a.current, nav li a:hover{
     text-decoration: none;
 }
 
-.premier_titre_texte button a {
+.premier_titre_texte a {
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -196,7 +193,7 @@ header nav ul li a.current, nav li a:hover{
 .deuxieme_titre_texte h1{
     font-size: 32px;
     line-height: 38px;
-
+    
 }
 
 .deuxieme_titre_texte p{
@@ -230,9 +227,32 @@ header nav ul li a.current, nav li a:hover{
 .sliderContainer{
     position:absolute;
     top : 0px;
+    transition:ease-in 0.5s all;
+    will-change: left;
+}
+
+.slider{
+    margin:20px 0px;
+    width:100%;
+    height:520px;
+    position:relative;
+    overflow:hidden;
+}
+
+.sliderContainer{
+    position:absolute;
     display:flex;
     transition:ease-in 0.5s all;
     will-change: left;
+}
+.sliderContainer div{
+    position: relative;
+}
+.sliderContainer div div{
+    position: absolute;
+    width: 280px;
+    right: 10%;
+    top: 5%;
 }
 
 
@@ -256,7 +276,7 @@ header nav ul li a.current, nav li a:hover{
     font-size: 25px;
     color: black;
     background-color: rgba(255, 255, 255, 0);
-
+    
 }
 
 .pagination{
@@ -284,6 +304,15 @@ header nav ul li a.current, nav li a:hover{
 
 /* VIDEO */
 
+section > h2 {
+    padding: 50px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+}
+
 .video {
     margin-bottom: 50px;
 }
@@ -294,42 +323,23 @@ header nav ul li a.current, nav li a:hover{
 
 /* ARTICLE */
 
-article.column {
-    display: flex;
-    align-items: space-between;
-    margin-bottom: 50px;
-}
-
-.article1_3 {
-    width: 304px;
-    margin: 20px;
-    text-align: center;
-}
-
-.article1_3 h3 {
-    font-size: 22px;
-    line-height: 33px;
+.minititle{
     color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-content:flex-start;
+    margin-top: 6%;  
 }
 
-.article1_3 p {
-    font-size: 15px;
-    line-height: 22.5px;
-    color: #707070;
+.minititle .info {
+    width: 30%;
+    cursor: pointer;
+    
 }
-
-.article1_3 button {
-    background-color:white;
-    border-radius: 15px;
-    border: 1px solid #0171C7;
-    text-decoration: none;
-}
-
-.article1_3 button a {
-    text-decoration: none;
-    color: #0171C7;
-    font-size: 15px;
-    margin: 10px;
+.minititle .info p{
+    overflow: hidden;
+    transition: all .3s;
 }
 
 .audio h2 {
@@ -357,13 +367,13 @@ article.column {
 .assistant .assitant_image img{
     margin-top: 0px;
     margin-right: 0;
-
-
+    
+    
 }
 
 .assistant .assistant_text {
     margin-top: 35px;
-
+    
     width: 370px;
 }
 
@@ -377,10 +387,4 @@ article.column {
     font-size: 15px;
     line-height: 22.5px;
     color: #707070;
-}
-
-.siri {
-    background: url('../images/presentation/hompod_siri.png')no-repeat;
-    background-size: 100%;
-    height: 1024px;
 }
