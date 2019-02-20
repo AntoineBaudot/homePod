@@ -1,3 +1,85 @@
+header{
+    background-color: #333333;
+
+}
+
+header img {
+    width: 36px;
+}
+
+.containerMenu1 {
+    width: 1024px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+header .containerMenu2 a {
+    margin: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+header nav ul button{
+    background-color:#0171C7;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    text-decoration: none;
+ }
+
+header nav ul button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header nav ul li a.current, nav li a:hover{
+    border-bottom:1px solid #ffffff;
+  }
+
+/* HEADER */
+
+/* MAIN */
+
+
+.premierPos {
+    position: relative;
+}
+
+.premier_titre_image h1 {
+    position: absolute;
+    top: 100px;
+    width: 340px;
+}
+
+.premier img {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 381px;
+
+}
+
+
+
+
+/*moi */
+
 body {
     margin: 0;
     padding: 0;
@@ -100,6 +182,7 @@ header nav ul li a.current, nav li a:hover{
     top: 100px;
     right: 0px;
     width: 381px;
+}
 footer div.livraison, div.retrait, div.financement, div.aide {
   width: 250px;
   display:flex;
