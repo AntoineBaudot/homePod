@@ -1,11 +1,9 @@
-
-
 body {
     margin: 0;
     padding: 0;
     font-family: "SF Pro Text", "Arial", sans-serif;
     font-size: 16px;
-    color: #444;
+    color: #1d1d1b;
     position: relative;
 }
 
@@ -58,95 +56,132 @@ a{
 }
 
 
-/*Main*/
-
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-ol, ul {
-	list-style: none;
-}
-
-h1{
-    display:flex;
-    justify-content: center;
-    margin-top: 100px;
-    color: black;
-    font-size: 400%;
+/*MAIN*/
+h2{
+  display:flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 300%;
 }
 .container{
-    width: 980px;
-    margin: 0 auto;
+  width: 980px;
+  margin: 0 auto;
 }
+
 .imghomepod{
-    width: 100%;
-
+  width: 100%;
+  margin-top: 35px;
 }
-.modele{
-    display:flex;
-    flex-direction:column;
+.itunes img{
+  margin: 0 auto;
+  margin-bottom: 0;
 }
-.img{
-    display: flex;
-    flex-direction: row;
-    color: black;
-   justify-content: space-evenly;
+.itunes h2{
+  text-align: center;
+  font-size: 45px;
+  margin-left: 180px;
+  margin-right: 180px;
 }
-.img p{
-    text-align: center;
-}
-.minititle{
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap:wrap;
-    align-content:flex-start;
-    margin-top: 6%;
-    text-align: center;
-}
-.imgboite{
-    background-image:url(images/homepodd.jpg);
-}
-.minititle .info {
-    width: 33%;
-}
-.minititle .info p{
-    overflow: hidden;
-    transition: all .3s;
-}
-.boite{
-    color: white;
-    margin-left: 60%;
-    font-size: 140%;
-    margin-right: 20%;
-}
-.titlecof{
-    color:white;
-    margin-top: 35%;
-    font-size: 220%;
-    font-weight: bold;
-    margin-left: 55%;
+.itunes p{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 
-.textcoffimg{
-    position: relative;
-    margin-top:5%;
-}
-.textcoff{
-    position: absolute;
-}
-.ecolo{
-    margin-left: 15%;
-    color:black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 45%;
+.loved_music h2{
+  text-align: center;
+  font-size: 35px;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 
-.colo{
-    display: flex;
-    flex-direction: space-between;
+.loved_music p{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.hps_image{
+  margin-top: 20px;
+  margin-left: 310px;
+  margin-right: 310px;
+}
+
+.siri_descrip h2{
+  text-align: center;
+  font-size: 45px;
+  margin-left: 275px;
+  margin-right: 275px;
+}
+.siri_descrip p{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+.hey_siri_box{
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+ blockquote{
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #f0357c;
+  background-image: linear-gradient(to right, #f0357c 100px, #f154ff 200px, #777dff 300px, #37bdde 500px);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+}
+
+.hey_siri_box{
+  font-size: 22px;
+}
+/*  animation-name: color_changing_text;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+ }
+
+ @keyframes color_changing_text {
+   0%   {color: #f0357c;}
+   25%  {color: #f154ff;}
+   50%  {color: #777dff;}
+   75%  {color: #37bdde;}
+   100% {color: #f0357c;}
+ }
+
+div.hey_siri_box p{
+  font-size: 18px;
+  font-weight: 500;
+}*/
+.siri {
+  position: relative;
+  background: url('../images/presentation/hompod_siri.png')no-repeat;
+  background-size: 100%;
+  height: 650px;
+  margin-top: 100px;
+}
+
+.siri_text{
+  position: absolute;
+  text-align: center;
+  left:10%;
+  right:40%;
+  color: white;
+}
+.siri_text p{
+  font-size: 19px;
+}
+.link_podcast{
+  color: #777dff;
+  font-size: 17px;
+}
+.link_podcast:hover{
+  color: #37bdde;
+  text-decoration: underline;
 }
