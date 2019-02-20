@@ -1,48 +1,107 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    font-size: 16px;
+    color: #444;
+    position: relative;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+/*Main*/
+
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 h1{
     display:flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
+    color: black;
+    font-size: 400%;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+.imghomepod{
+    width: 100%;   
+    
+}
+.modele{
+    display:flex;
+    flex-direction:column;
+}
+.img{
+    display: flex;  
+    flex-direction: row;
+    color: black;
+   justify-content: space-evenly;  
+}
+.img p{
+    text-align: center;
+}
+.minititle{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-content:flex-start;
+    margin-top: 6%; 
+    text-align: center;
+}
+.imgboite{
+    background-image:url(images/homepodd.jpg);
+}
+.minititle .info {
+    width: 33%;
+}
+.minititle .info p{
+    overflow: hidden;
+    transition: all .3s;
+}
+.boite{
+    color: white;
+    margin-left: 60%;
+    font-size: 140%;
+    margin-right: 20%;
+}
+.titlecof{
+    color:white;
+    margin-top: 19%;
+    font-size: 220%;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.textcoffimg{
+    position: relative;
+}
+.textcoff{
+    position: absolute;
+}
+.ecolo{
+    margin-left: 15%;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 33%;
+}
+
+.colo{
+    display: flex;
+    flex-direction: space-between;
+
 }
