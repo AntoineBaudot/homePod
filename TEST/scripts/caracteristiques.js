@@ -14,7 +14,7 @@ for(let i = 0; i < questions.length; i++){
 
             if(openned == this) return
         }
-        
+
         questions[i].querySelector("p").style.height = questions[i].querySelector("p").getAttribute("data-height") + "px"
         this.classList.add("is_open")
     })

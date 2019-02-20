@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -12,11 +14,54 @@ body {
     margin: 0 auto;
 }
 
+/* HEADER */
+header {
+    background-color:#333333;
+    height: 50px;
+}
+nav{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+  }
+nav ul.containerr{
+    background-color:#333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+li{
+    padding: 0px 20px 0px 20px;
+}
+.logo{
+    width: 30px;
+    padding-left: 30px;
+}
+.left{
+    display: block;
+    width: 65%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.button{
+   background-color:#0171C7;
+   border-radius: 50px;
+   color: white;
+   border-color:#0171C7;
+   font-size:15px;
+}
 
 
 /*Main*/
 
-article, aside, details, figcaption, figure, 
+
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -36,18 +81,18 @@ h1{
     margin: 0 auto;
 }
 .imghomepod{
-    width: 100%;   
-    
+    width: 100%;
+
 }
 .modele{
     display:flex;
     flex-direction:column;
 }
 .img{
-    display: flex;  
+    display: flex;
     flex-direction: row;
     color: black;
-   justify-content: space-evenly;  
+   justify-content: space-evenly;
 }
 .img p{
     text-align: center;
@@ -58,7 +103,7 @@ h1{
     justify-content: space-around;
     flex-wrap:wrap;
     align-content:flex-start;
-    margin-top: 6%; 
+    margin-top: 6%;
     text-align: center;
 }
 .imgboite{
@@ -79,14 +124,15 @@ h1{
 }
 .titlecof{
     color:white;
-    margin-top: 19%;
+    margin-top: 35%;
     font-size: 220%;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 55%;
 }
 
 .textcoffimg{
     position: relative;
+    margin-top:5%;
 }
 .textcoff{
     position: absolute;
@@ -97,11 +143,10 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 33%;
+    width: 45%;
 }
 
 .colo{
     display: flex;
     flex-direction: space-between;
-
 }
