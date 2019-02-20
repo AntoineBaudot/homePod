@@ -248,7 +248,7 @@ header nav ul li a.current, nav li a:hover{
 .sliderContainer div{
     position: relative;
 }
-.sliderContainer div span{
+.sliderContainer div div{
     position: absolute;
     width: 280px;
     right: 10%;
