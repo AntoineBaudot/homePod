@@ -39,7 +39,8 @@ function playSlider()
 
 leftArrow.addEventListener(
     'click',
-    function () {
+    function (e) {
+        e.preventDefault()
         pos--
       if(pos < 0){
         pos = sliderImages.length-1
@@ -50,7 +51,8 @@ leftArrow.addEventListener(
 
 rightArrow.addEventListener(
     'click',
-    function () {
+    function (e) {
+        e.preventDefault()
         pos++
         if(pos == sliderImages.length)
         {
@@ -106,20 +108,3 @@ for(let i = 0; i< points.length; i++){
 
 
 
-
-function play(idPlayer, control) {
-    let player = document.querySelector('#' + idPlayer)
-
-    if (player.paused) {
-        player.play();
-    } else {
-        player.pause();
-    }
-}
-
-function resume(idPlayer) {
-    let player = document.querySelector('#' + idPlayer)
-
-    player.currentTime = 0;
-    player.pause();
-}
