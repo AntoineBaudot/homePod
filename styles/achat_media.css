@@ -1,148 +1,131 @@
 @media screen and (min-width:768px) and (max-width:1024px)
 {
-  .container{
-    width:768px;
-  }
-  .title{
-    margin-right: 22%;
-  }
-  .color_selector_display{
-    margin-right: 50%;
-  }
-  #hpPres{
-    width: 100%;
-    display: flex;
-    margin-bottom: 10px;
-  }
-  #hpPres img{
-    width: 60px;
-    height: 60px;
-  }
-}
-@media screen and (min-width:1024px) and (max-width:1366px)
-  {
-    .sstitlecoff{
-      margin-left: 14%;
-    }
-    
-    .prix{
-      margin-right: 20%;
-    }
-    #buyButton{
-      margin-right: 20%;
-    }
-    #hpPres{
-     margin-left: 85px;
-    }
-
-  }
-
-@media screen and (min-width:600px) and (max-width:768px){
-  .container{
-    width:100%;
-  }
-
-  div.title{
-    width: 70%;
-  }
-
-  .color_selector_display{
-    width: 40%;
-  }
-
-  .prix{
-    width: 70%;
-  }
-  .buttonn{
-    width: 70%;
-  }
-
-  #hpPres{
-    width: 100%;
-    display: flex;
-    margin-bottom: 20px;
-  }
-  #hpPres img{
-    width: 60px;
-    height: 60px;
-  }
-
-  .minititle{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .txtcolo{
-    width: 70%;
-  }
-  .titlecolo{
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .imgecolo{
-    display: none;
-  }
-}
-
-
-@media screen and (max-width:600px){
-  .container{
-    width:100%;
-  }
 
   main.container{
-    width:100%;
+    width:760px;
+    margin:0 auto;
+    text-align: center;
   }
-
+  
   div.title{
-    width: 50%;
-    font-size: 20px;
-  }
-
-  .color_selector_display{
-    margin-left: 5px;
-  }
-
-  .prix{
-    width: 50%;
-    font-size: 25px;
-  }
-
-  .buttonn{
-    width: 50%;
+    color: #1d1d1b;
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px;
   }
 
   #hpPres{
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
+
   #hpPres img{
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
   }
 
-  .minititle{
-    display: flex;
-    flex-direction: column;
+  .musicExample {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
   }
 
-  .txtcolo{
-    width: 50%;
+  .moving_bar {
+    width: 1000px;
+    margin: 0 auto;
   }
-  .titlecolo{
-    display: flex;
-    justify-content: space-between;
-  }
-  .titlecoff{
-    margin-right: 32px;
-  }
-  .sstitlecoff{
-    margin-left: 32px;
-  }
-  .imgecolo{
+
+  .sstitlecoff {
     display: none;
   }
+
+  .imgecolo{
+    margin-top: 280%;
+    height: auto;
+    width: auto;
+  }
+
+
+
 }
+    
+
+    
+
+@media screen and (max-width:768px){
+    /*MENU*/
+  .hide-on-desktop{
+    display:inline-block;
+  }
+  .menu ul.container_flex{
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: #FFF;
+    color: black;
+  }
+  .menu ul.container_flex.active{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin:0;
+  }
+  .menu ul.container_flex.active li{
+    margin: 20px 0;
+  }
+  .menu ul.container_flex.active li a:not(.button_achat){
+    color: black;
+    margin: 0;
+  }
+}
+
+main.container{
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+}
+
+div.title{
+  color: #1d1d1b;
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+#hpPres{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#hpPres img{
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+.minititle.container{
+    color: #1d1d1b;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+  
+
+}
+

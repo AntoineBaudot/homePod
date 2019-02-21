@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
 }
 
+
   /*MAIN*/
 
 main img{
@@ -130,6 +131,7 @@ div.music{
 */
 .moving_bar{
   position: relative;
+
 }
 
 #musicExample1 img{
@@ -292,7 +294,7 @@ h1{
 .minititle{
     color: #1d1d1b;
     display: flex;
-    justify-content: space-around;
+    
     flex-wrap:wrap;
     align-content:flex-start;
     margin-top: 6%;
@@ -343,7 +345,7 @@ h1{
 }
 .titlecolo{
   display: flex;
-  justify-content: space-around;
+  font-size: 20px;
 }
 .imgecolo{
   margin-top: 280%;
@@ -357,7 +359,7 @@ h1{
 }
 .textcoffimg{
     position: relative;
-    margin-top:3%;
+   
 }
 .textcoffimg::before{
   content: '';
