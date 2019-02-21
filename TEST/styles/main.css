@@ -323,3 +323,80 @@ section > h2 {
     line-height: 22.5px;
     color: #707070;
 }
+
+/*FOOTER*/
+footer{
+  margin-top: 40px;
+}
+footer div.bande{
+  background: #373737;
+  height: 260px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+footer div.livraison, div.retrait, div.financement, div.aide {
+  width: 250px;
+  display:flex;
+  text-align: center;
+  margin: 15px;
+}
+
+footer div.aide h3{
+  font-size: 16px;
+}
+
+footer div.livraison, div.retrait, div.financement, div.aide p{
+  font-size: 14px;
+}
+
+footer  .clearBoth{
+  clear: both;
+}
+
+span.link{
+  color: #777dff;
+  text-decoration: none;
+}
+span.link:hover{
+  color: #37bdde;
+  text-decoration:underline;
+}
+
+a.ac-gf-block{
+  text-decoration: none;
+  color: white;
+}
+.buystrip{
+  width: 250px;
+}
+.buystrip1{
+  width: 160px;
+}
+
+.buystrip2{
+  width: 40px;
+  margin-top: 10px;
+}
+.buystrip3{
+  width: 60px;
+  margin-top:10px;
+}
+#info_leg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style:none;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 45px;
+}
+.eng_de_confidentialité a, .conditions a, .services_apres_vente a, .mentions_legales a{
+  color: #1d1d1b;
+  text-decoration: none;
+  font-size: 12px;
+}
+.eng_de_confidentialité a:hover, .conditions a:hover, .services_apres_vente a:hover, .mentions_legales a:hover{
+  text-decoration: underline;
+}
