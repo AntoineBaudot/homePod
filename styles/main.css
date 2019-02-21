@@ -11,6 +11,18 @@ body {
     margin: 0 auto;
 }
 /*---------------Header--------------*/
+.hide-on-desktop{
+  display:none;
+}
+
+.toggleMenu{
+    color: blue;
+    text-decoration: none;
+    font-size: 32px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 10;
+}
 
 header{
     background-color: #333333;
@@ -264,13 +276,15 @@ section > h2 {
 }
 
 .minititle .info h2::after {
-    content:"v";
+    content:"+";
+    font-weight: normal;
     float: right;
     transition: all .3s linear;
     width:13px;
     height:19px;
-
-
+}
+.minititle .info h2.is_open::after{
+  content: '-';
 }
 
 .info .is_open h2::after{

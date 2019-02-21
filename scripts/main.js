@@ -33,9 +33,10 @@ const sliderImages = document.querySelectorAll('.sliderContainer img')
 const leftArrow = document.querySelector('.left');
 const rightArrow = document.querySelector('.right');
 const pagination = document.querySelector('.pagination')
-const step = 960 // definit le décalage
 let pos = 0 // définit la position en cours.
 let action
+let step = 960 // definit le décalage
+
 playSlider()
 
 slider.addEventListener('mouseover',stopSlider)
@@ -132,6 +133,20 @@ for(let i = 0; i< points.length; i++){
         function () {
             pos = i;
             setPosition(pos)
-        }
-        )
+        })
 }
+
+window.onresize = function(e){
+  if(document.querySelector(".container").offsetWidth < 960){
+    step = document.querySelector(".container").offsetWidth
+    slider.style.left = -pos*step+'px'
+  }
+  // step = e.currentTarget.innerWidth - 20
+}
+document.querySelector(".toggleMenu").addEventListener("click", function(){
+  document.querySelector(".menu ul").classList.toggle("active")
+})
+
+// if(document.querySelector(".container").offsetWidth != 960){
+//   step = document.querySelector(".container").offsetWidth - 20
+// }
