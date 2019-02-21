@@ -12,50 +12,6 @@ body {
     margin: 0 auto;
 }
 
-/* HEADER */
-header {
-    background-color:#333333;
-    height: 50px;
-}
-nav{
-    background-color: #333333;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-  }
-nav ul.containerr{
-    background-color:#333333;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-li{
-    padding: 0px 20px 0px 20px;
-}
-.logo{
-    width: 30px;
-    padding-left: 30px;
-}
-.left{
-    display: block;
-    width: 65%;
-}
-a{
-    color: white;
-    text-decoration: none;
-}
-.button{
-   background-color:#0171C7;
-   border-radius: 50px;
-   color: white;
-   border-color:#0171C7;
-   font-size:15px;
-}
-
-
 /*MAIN*/
 h2{
   display:flex;
