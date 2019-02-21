@@ -361,7 +361,7 @@ h1{
 }
 .textcoffimg::before{
   content: '';
-  background: url(../images/hompod_siri.png);
+  background: url(../images/hompod_siri.png)no-repeat;
   background-position: center;
   position: absolute;
   top:0;
