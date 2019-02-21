@@ -348,7 +348,6 @@ footer{
 }
 footer div.bande{
   background: #373737;
-  height: 260px;
   color: white;
   display: flex;
   justify-content: center;
