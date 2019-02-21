@@ -57,3 +57,17 @@ for(let i = 0; i < questions.length; i++){
         this.classList.add("is_open")
     })
 }
+
+const colorSelector = document.querySelectorAll(".color_selector div")
+for(let i = 0; i < colorSelector.length; i++){
+    colorSelector[i].addEventListener("click", function(e){
+      if(document.querySelector(".color.active") !== null){
+          let openned = document.querySelector(".color.active")
+          openned.classList.remove("active")
+
+          this.classList.add("active")
+      }else {
+          this.classList.add("active")
+      }
+    })
+}
