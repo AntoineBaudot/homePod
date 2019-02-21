@@ -106,6 +106,7 @@ div.hey_siri_box p{
 .link_podcast{
   color: #777dff;
   font-size: 17px;
+  text-decoration: none;
 }
 .link_podcast:hover{
   color: #37bdde;
