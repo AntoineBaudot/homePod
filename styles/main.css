@@ -98,9 +98,10 @@ header nav ul li a.current, nav li a:hover{
     height: 552px;
 }
 
-.premier_titre_texte a {
+.premier_titre_texte .video_pub a {
     background-color:#0171C7;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding: 5px 10px;
     color: white;
     border: none;
     text-decoration: none;
