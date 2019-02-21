@@ -1,10 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "SF Pro Text", "Arial", sans-serif;
+    font-family: "sf_regular", "Arial", sans-serif;
     font-size: 16px;
     color: #1D1D1D;
 }
+
+@font-face {
+  font-family: sf_bold;
+  src: url(../fonts/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+  font-family: sf_regular;
+  src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
+
 
 .container {
     width: 960px;
@@ -257,6 +267,7 @@ section > h2 {
     text-align: center;
     font-size: 30px;
     line-height: 38px;
+    font-style: sf_bold;
 }
 
 
