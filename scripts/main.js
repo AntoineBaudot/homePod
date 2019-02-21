@@ -137,15 +137,13 @@ for(let i = 0; i< points.length; i++){
 }
 
 window.onresize = function(e){
-  if(document.querySelector(".container").offsetWidth < 960){
+  if(document.querySelector(".container").offsetWidth != 960){
     step = document.querySelector(".container").offsetWidth
     slider.style.left = -pos*step+'px'
   }
   // step = e.currentTarget.innerWidth - 20
 }
-document.querySelector(".toggleMenu").addEventListener("click", function(){
-  document.querySelector(".menu ul").classList.toggle("active")
-})
+
 
 // if(document.querySelector(".container").offsetWidth != 960){
 //   step = document.querySelector(".container").offsetWidth - 20
