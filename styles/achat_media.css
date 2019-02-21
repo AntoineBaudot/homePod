@@ -9,6 +9,15 @@
   .color_selector_display{
     margin-right: 50%;
   }
+  #hpPres{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  #hpPres img{
+    width: 60px;
+    height: 60px;
+  }
 }
 @media screen and (min-width:1024px) and (max-width:1366px)
   {
