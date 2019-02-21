@@ -1,273 +1,266 @@
   <!DOCTYPE html>
   <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Descption de la page">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="styles/achat.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <title>Document</title>
-  </head>
-  <body>
-    <header >
-      <nav class="container ">
-        <a class="logo"href="index.html" title="HomePod.fr">
-          <img src="images/logo.png" alt="HomePod">
-        </a>
-        <div class="menu">
-          <ul class="container_flex">
-            <li>
-              <a href="index.html" title="Présentation" class="current">Présentation</a>
-            </li>
-            <li>
-              <a href="caracteristiques.html" title="Caractéristiques">Caractéristiques</a>
-            </li>
-            <li>
-              <a  class="button_achat" href="achat.html" title="Caractéristiques">Acheter maintenant</a>
-            </li>
-            
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main class="container">
-      <div class="title">
-        <h2>Acheter un HomePod</h2>
-      </div>
-      <div class="color_selector_display">
-        <div class="color_selector homepod_images">
-          <img alt="LightHomePod" src="images/achat/hp_side_light.jpg"></img>
-          <img alt="DarkHomePod" src="images/achat/hp_side_dark.jpg"></img>
-        </div>
-        <div class="color_selector">
-          <div class="light">
-            <div class="button"></div>
-            <span>Light</span>
-          </div>
-          <div class="dark">
-            <div class="button"></div>
-            <span>Dark</span>
-          </div>
-        </div>
-      </div>
-      <div id="hpPres">
-        <img alt="HomePodLight" src="images/achat/hp_side_light.jpg"></img>
-        <img alt="HomePodDark" src="images/achat/hp_side_dark.jpg"></img>
-        <img class="change" alt="HomePodZoom" src="images/achat/hp_zoom.jpg"></img>
-        <img alt="HomePodTop" src="images/achat/hp_top.jpg"></img>
-        <img class="change" alt="HomePodIndoor" src="images/achat/hp_pres_light.jpg"></img>
-        <img class="change" alt="HomePodComparison" src="images/achat/hp_comp.jpg"></img>
-      </div>
-      <!--<div class="slider">
-        <div class="sliderContainer" style="left:0">
-          <img alt="HomePodLight" src="images/achat/hp_side_light.jpg"></img>
-          <img alt="HomePodDark" src="images/achat/hp_side_dark.jpg"></img>
-          <img class="change" alt="HomePodZoom" src="images/achat/hp_zoom.jpg"></img>
-          <img alt="HomePodTop" src="images/achat/hp_top.jpg"></img>
-          <img class="change" alt="HomePodIndoor" src="images/achat/hp_pres_light.jpg"></img>
-          <img class="change" alt="HomePodComparison" src="images/achat/hp_comp.jpg"></img>
-        </div>
-        <div class="navigation">
-          <a href="#" title="previous" class="previous"><</a>
-          <a href="#" title="next" class="next">></a>
-          <ul class="dots">
-            <li><a href="#" title="Image 1" class="current"> </a></li>
-            <li><a href="#" title="Image 2"> </a></li>
-            <li><a href="#" title="Image 3"> </a></li>
-            <li><a href="#" title="Image 4"> </a></li>
-            <li><a href="#" title="Image 5"> </a></li>
-            <li><a href="#" title="Image 6"> </a></li>
-          </ul>
-        </div>
-      </div>-->
-      <div class="music">
-        <h2>Il connaît la musique.</h2>
-        <p>Le HomePod est l’écrin idéal pour l’immense répertoire d’Apple Music. Pour écouter toutes les chansons qui vous passent dans la tête, il vous suffit de demander à Siri.</p>
-      </div>
-      <div class="musicExample">
-        <div class="moving_bar">
-          <div id="musicExample1">
-            <img alt="Queen" src="images/achat/queen.jpg"></img>
-            <img alt="ImagineDragons" src="images/achat/imag_drag.jpg"></img>
-            <img alt="NickyMinaj" src="images/achat/nicky_m.jpg"></img>
-            <img alt="TaylorSwift" src="images/achat/taylor_s.jpg"></img>
-            <img alt="PinkFloyd" src="images/achat/pink_floyd.jpg"></img>
-            <img alt="ShawnMendes" src="images/achat/shawn_m.jpg"></img>
-            <img alt="DerekMinor" src="images/achat/derek_minor.jpg"></img>
-            <img alt="TheGreatest" src="images/achat/the_greatest.jpg"></img>
-            <img alt="DepecheMode" src="images/achat/depeche_mode.jpg"></img>
-            <img alt="Journey" src="images/achat/journey.jpg"></img>
-          </div>
-          <div id="musicExample2">
-            <img alt="ChrisStapleton" src="images/achat/chris_st.jpg"></img>
-            <img alt="Moana" src="images/achat/moana.jpg"></img>
-            <img alt="Erra" src="images/achat/erra.jpg"></img>
-            <img alt="KennyChesney" src="images/achat/kenny_ch.jpg"></img>
-            <img alt="Abba" src="images/achat/abba.jpg"></img>
-            <img alt="JasonMraz" src="images/achat/jason_mr.jpg"></img>
-            <img alt="BobMarley" src="images/achat/bob_m.jpg"></img>
-            <img alt="NoDoubt" src="images/achat/no_doubt.jpg"></img>
-            <img alt="EltonJohn" src="images/achat/elton_j.jpg"></img>
-            <img alt="GunsNRoses" src="images/achat/guns_r.jpg"></img>
-          </div>
-        </div>
-        <!--<div id="hp_overmusic">
-          <img alt="HomePod" src="images/achat/hp_top.jpg"></img>
-        </div>-->
-      </div>
-      <!-- <div class="hey_siri">
-        <div class="hey_siri_box">
-          <blockquote>Hey Siri, what’s the song that goes “I travel the world and the seven seas”
-          </blockquote>
-          <p>Search for music by lyrics.
-          </p>
-        </div>
-        <div class="hey_siri_box">
-          <blockquote>Hey Siri, play something chill
-          </blockquote>
-          <p>Play music by mood or genre.
-          </p>
-        </div>
-        <div class="hey_siri_box">
-          <blockquote>Hey Siri, where’s my iPhone?
-          </blockquote>
-          <p>Locate your iPhone, iPad, or MacBook with a ping.
-          </p>
-        </div>
-        <div class="hey_siri_box">
-          <blockquote>Hey Siri, text Sofia “I’m running late”
-          </blockquote>
-          <p>Send and listen to messages.
-          </p>
-        </div>
-      </div>-->
-      <div class="minititle container">
-        <div class="info">
-          <h2 class='is_open'>Fiche descriptive</h2>
-          <p><br>Le HomePod mesure 172 mm de hauteur</br> <br>142 mm de diamètre</br><br>pèse 2,5 kg</br><br> Couleurs: </br><br> Gris sidéral</br> <br> Blanc</br></p>
-        </div>
-        <div class="info">
-          <h2>Technologie audio</h2>
-          <p><br>Boomer longue portée avec amplificateur spécifique</br>
-            <br> Sept tweeters à pavillon, chacun ayant son propre amplificateur spécifique</br>
-            <br>Ensemble de six micros pour s’adresser de loin à Siri</br>
-            <br> Micro interne de calibration des fréquences basses pour une correction automatique des graves</br>
-            <br>Formation de faisceaux pour le son direct et ambiant</br>
-            <br> Traitement dynamique transparent digne d’un studio professionnel</br>
-            <br> Compatible avec l’appairage stéréo</br></p>
-          </div>
-          <div class="info">
-            <h2>Sources audio</h2>
-            <p><br>Apple Music</br>
-              <br>Achats de musique sur iTunes</br>
-              <br>Bibliothèque musicale iCloud avec un abonnement Apple Music ou iTunes Match</br>
-              <br> Radio Beats 1 en direct</br>
-              <br>Épisodes live de Beats 1 à la demande</br>
-              <br> Podcasts Apple</br>
-              <br> Diffusion d’autres contenus de votre iPhone, iPad, iPod touch, Apple TV ou Mac sur le HomePod via AirPlay</br></p>
+      <head>
+          <meta charset="UTF-8">
+          <meta name="description" content="Descption de la page">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+          <link rel="stylesheet" href="styles/achat.css">
+          <title>Document</title>
+      </head>
+      <body>
+        <header >
+            <nav class="containerMenu1 ">
+                <a href="index.html" title="HomePod.fr">
+                    <img src="images/logo.png" alt="HomePod">
+                </a>
+                <div class="containerMenu2">
+                    <ul class="container container_flex">
+                        <li>
+                            <a href="index.html" title="Présentation" >Présentation</a>
+                        </li>
+                        <li>
+                            <a href="caracteristiques.html" title="Caractéristiques">Caractéristiques</a>
+                        </li>
+                        <button>
+                            <a class="achat" href="achat.html" title="Achat">Acheter maintenant</a>
+                        </button>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+          <main class="container">
+            <div class="title">
+              <h2>Acheter un HomePod</h2>
             </div>
-            <div class="info">
-              <h2>Formats audio</h2>
-              <p><br>HE‑AAC (V1)</br><br> AAC (16 à 320 kbit/s)</br><br> AAC protégé (iTunes Store)</br><br>MP3 (16 à 320 kbit/s)</br><br> MP3 VBR, Apple Lossless</br><br> AIFF, WAV et FLAC</br></p>
-            </div>
-            <div class="info">
-              <h2>Surface Touch</h2>
-              <p><br>Toucher ou appuyer sur les boutons + et – pour augmenter ou réduire le volume</br>
-                <br>Toucher de façon prolongée pour s’adresser à Siri</br>
-                <br> Toucher pour lire/mettre en pause la musique ou s’adresser à Siri</br>
-                <br>Toucher deux fois pour sauter un morceau</br>
-                <br> Toucher trois fois pour revenir en arrière</br></p>
+            <div class="color_selector_display">
+              <div class="color_selector homepod_images">
+                <img alt="LightHomePod" src="images/achat/hp_side_light.jpg"></img>
+                <img alt="DarkHomePod" src="images/achat/hp_side_dark.jpg"></img>
               </div>
-              <div class="info">
-                <h2>Accessibilité</h2>
-                <p><br>Les fonctionnalités d’accessibilité aident les personnes en situation de handicap à profiter pleinement de leur HomePod.</br>
+              <div class="color_selector">
+                <div class="light">
+                  <div class="button"></div>
+                  <span>Light</span>
+                </div>
+                <div class="dark">
+                  <div class="button"></div>
+                  <span>Dark</span>
+                </div>
+              </div>
+            </div>
+            <div id="hpPres">
+              <img alt="HomePodLight" src="images/achat/hp_side_light.jpg"></img>
+              <img alt="HomePodDark" src="images/achat/hp_side_dark.jpg"></img>
+              <img class="change" alt="HomePodZoom" src="images/achat/hp_zoom.jpg"></img>
+              <img alt="HomePodTop" src="images/achat/hp_top.jpg"></img>
+              <img class="change" alt="HomePodIndoor" src="images/achat/hp_pres_light.jpg"></img>
+              <img class="change" alt="HomePodComparison" src="images/achat/hp_comp.jpg"></img>
+            </div>
+            <!--<div class="slider">
+               <div class="sliderContainer" style="left:0">
+                 <img alt="HomePodLight" src="images/achat/hp_side_light.jpg"></img>
+                 <img alt="HomePodDark" src="images/achat/hp_side_dark.jpg"></img>
+                 <img class="change" alt="HomePodZoom" src="images/achat/hp_zoom.jpg"></img>
+                 <img alt="HomePodTop" src="images/achat/hp_top.jpg"></img>
+                 <img class="change" alt="HomePodIndoor" src="images/achat/hp_pres_light.jpg"></img>
+                 <img class="change" alt="HomePodComparison" src="images/achat/hp_comp.jpg"></img>
+               </div>
+               <div class="navigation">
+                 <a href="#" title="previous" class="previous"><</a>
+                 <a href="#" title="next" class="next">></a>
+                 <ul class="dots">
+           					<li><a href="#" title="Image 1" class="current"> </a></li>
+           					<li><a href="#" title="Image 2"> </a></li>
+           					<li><a href="#" title="Image 3"> </a></li>
+           					<li><a href="#" title="Image 4"> </a></li>
+           					<li><a href="#" title="Image 5"> </a></li>
+           					<li><a href="#" title="Image 6"> </a></li>
+           			 </ul>
+               </div>
+           </div>-->
+           <div class="music">
+             <h2>Il connaît la musique.</h2>
+             <p>Le HomePod est l’écrin idéal pour l’immense répertoire d’Apple Music. Pour écouter toutes les chansons qui vous passent dans la tête, il vous suffit de demander à Siri.</p>
+           </div>
+           <div class="musicExample">
+             <div class="moving_bar">
+               <div id="musicExample1">
+                 <img alt="Queen" src="images/achat/queen.jpg"></img>
+                 <img alt="ImagineDragons" src="images/achat/imag_drag.jpg"></img>
+                 <img alt="NickyMinaj" src="images/achat/nicky_m.jpg"></img>
+                 <img alt="TaylorSwift" src="images/achat/taylor_s.jpg"></img>
+                 <img alt="PinkFloyd" src="images/achat/pink_floyd.jpg"></img>
+                 <img alt="ShawnMendes" src="images/achat/shawn_m.jpg"></img>
+                 <img alt="DerekMinor" src="images/achat/derek_minor.jpg"></img>
+                 <img alt="TheGreatest" src="images/achat/the_greatest.jpg"></img>
+                 <img alt="DepecheMode" src="images/achat/depeche_mode.jpg"></img>
+                 <img alt="Journey" src="images/achat/journey.jpg"></img>
+               </div>
+               <div id="musicExample2">
+                 <img alt="ChrisStapleton" src="images/achat/chris_st.jpg"></img>
+                 <img alt="Moana" src="images/achat/moana.jpg"></img>
+                 <img alt="Erra" src="images/achat/erra.jpg"></img>
+                 <img alt="KennyChesney" src="images/achat/kenny_ch.jpg"></img>
+                 <img alt="Abba" src="images/achat/abba.jpg"></img>
+                 <img alt="JasonMraz" src="images/achat/jason_mr.jpg"></img>
+                 <img alt="BobMarley" src="images/achat/bob_m.jpg"></img>
+                 <img alt="NoDoubt" src="images/achat/no_doubt.jpg"></img>
+                 <img alt="EltonJohn" src="images/achat/elton_j.jpg"></img>
+                 <img alt="GunsNRoses" src="images/achat/guns_r.jpg"></img>
+               </div>
+             </div>
+             <!--<div id="hp_overmusic">
+               <img alt="HomePod" src="images/achat/hp_top.jpg"></img>
+             </div>-->
+         </div>
+           <!-- <div class="hey_siri">
+             <div class="hey_siri_box">
+               <blockquote>Hey Siri, what’s the song that goes “I travel the world and the seven seas”
+               </blockquote>
+               <p>Search for music by lyrics.
+               </p>
+             </div>
+             <div class="hey_siri_box">
+               <blockquote>Hey Siri, play something chill
+               </blockquote>
+               <p>Play music by mood or genre.
+               </p>
+             </div>
+             <div class="hey_siri_box">
+               <blockquote>Hey Siri, where’s my iPhone?
+               </blockquote>
+               <p>Locate your iPhone, iPad, or MacBook with a ping.
+               </p>
+             </div>
+             <div class="hey_siri_box">
+               <blockquote>Hey Siri, text Sofia “I’m running late”
+               </blockquote>
+               <p>Send and listen to messages.
+               </p>
+             </div>
+           </div>-->
+         <div class="minititle container">
+           <div class="info">
+               <h2 class='is_open'>Fiche descriptive</h2>
+               <p><br>Le HomePod mesure 172 mm de hauteur</br> <br>142 mm de diamètre</br><br>pèse 2,5 kg</br><br> Couleurs: </br><br> Gris sidéral</br> <br> Blanc</br></p>
+           </div>
+           <div class="info">
+               <h2>Technologie audio</h2>
+               <p><br>Boomer longue portée avec amplificateur spécifique</br>
+                  <br> Sept tweeters à pavillon, chacun ayant son propre amplificateur spécifique</br>
+                   <br>Ensemble de six micros pour s’adresser de loin à Siri</br>
+                  <br> Micro interne de calibration des fréquences basses pour une correction automatique des graves</br>
+                   <br>Formation de faisceaux pour le son direct et ambiant</br>
+                  <br> Traitement dynamique transparent digne d’un studio professionnel</br>
+                  <br> Compatible avec l’appairage stéréo</br></p>
+           </div>
+           <div class="info">
+               <h2>Sources audio</h2>
+               <p><br>Apple Music</br>
+                   <br>Achats de musique sur iTunes</br>
+                   <br>Bibliothèque musicale iCloud avec un abonnement Apple Music ou iTunes Match</br>
+                  <br> Radio Beats 1 en direct</br>
+                   <br>Épisodes live de Beats 1 à la demande</br>
+                  <br> Podcasts Apple</br>
+                  <br> Diffusion d’autres contenus de votre iPhone, iPad, iPod touch, Apple TV ou Mac sur le HomePod via AirPlay</br></p>
+           </div>
+           <div class="info">
+               <h2>Formats audio</h2>
+               <p><br>HE‑AAC (V1)</br><br> AAC (16 à 320 kbit/s)</br><br> AAC protégé (iTunes Store)</br><br>MP3 (16 à 320 kbit/s)</br><br> MP3 VBR, Apple Lossless</br><br> AIFF, WAV et FLAC</br></p>
+         </div>
+           <div class="info">
+               <h2>Surface Touch</h2>
+               <p><br>Toucher ou appuyer sur les boutons + et – pour augmenter ou réduire le volume</br>
+                   <br>Toucher de façon prolongée pour s’adresser à Siri</br>
+                  <br> Toucher pour lire/mettre en pause la musique ou s’adresser à Siri</br>
+                   <br>Toucher deux fois pour sauter un morceau</br>
+                  <br> Toucher trois fois pour revenir en arrière</br></p>
+         </div>
+           <div class="info">
+               <h2>Accessibilité</h2>
+               <p><br>Les fonctionnalités d’accessibilité aident les personnes en situation de handicap à profiter pleinement de leur HomePod.</br>
                   <br> Fonctionnalités incluses :</br>
-                  <br>Adaptation aux pressions</br>
-                  <br>Siri</br>
+                <br>Adaptation aux pressions</br>
+                   <br>Siri</br>
                   <br>VoiceOver</br>
-                  <br>App Maison et HomeKit</br></p>
-                </div>
-                <div class="info">
-                  <h2>Sans-fil</h2>
-                  <p><br>Wi‑Fi 802.11ac avec MIMO</br>
-                    <br>Accès invité direct3</br>
-                    <br>Bluetooth 5.0</br>
-                    <br>Prise en charge des enceintes dans plusieurs pièces avec AirPlay 2</br></p>
-                  </div>
-                  <div class="info">
-                    <h2>Configuration requise</h2>
-                    <p><br>iPhone 5s (ou modèle ultérieur)</br><br> iPad Pro</br><br> iPad (5e génération ou ultérieure)</br><br>iPad Air (ou modèle ultérieur)</br><br> iPad mini 2 (ou modèle ultérieur) ou iPod touch (6e génération) avec iOS 12 (ou version ultérieure)</br>
-                      <br> Accès Internet par Wi‑Fi 802.11</br>
-                      <br> Abonnement Apple Music requis pour bénéficier de l’ensemble des fonctionnalités musicales</br></p>
-                    </div>
-                    <div class="info">
-                      <h2>Alimentation</h2>
-                      <p></br>Bloc d’alimentation intégré</br>
-                      </br> Tension : de 100 à 240 V CA</br>
-                    </br>Fréquence : de 50 à 60 Hz</br>
-                    <br>Température d’utilisation : de 0 à 35 °C</br>
-                    <br>Température de rangement : de -20 à 45 °C</br>
-                    <br>Humidité relative : de 5 à 90 % sans condensation</br>
-                    <br>Altitude maximale d’utilisation : testé jusqu’à 3 000 m</br>
-                    <br>Altitude maximale de rangement : 4 500 m</br>
-                    <br>Altitude maximale de transport : 10 500 m</br></p>
-                  </div>
-                </div>
-                <div class="textcoffimg">
-                  <div class="textcoff container">
-                    <div class="titlecof">
-                      <p>Contenu du coffret</p>
-                    </div>
-                    <div class="boit">
-                      <div class="boite">
-                        <p>Homepod</p>
-                        <p>Documentation</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="colo container">
-                  <div class="txtcolo">
-                    <div class="titlecoff">
-                      <p>HomePod ECOLO</p>
-                    </div>
-                    <div class="ecolo">
-                      <p>Pour mesurer avec précision son impact sur la planète, Apple tient compte de chaque étape du cycle de vie de ses produits.
-                        Le HomePod incarne l’engagement durable d’Apple pour la protection de l’environ­nement. Afin de réduire son impact sur l’environ­nement, il a été conçu avec les caractéristiques suivantes :
-                        Sans retardateurs de flamme bromés
-                        Sans PVC
-                        Sans béryllium
-                        Conforme à la norme ENERGY STAR version 3.0 en matière d’audio et de vidéo</p>
-                      </div>
-                    </div>
-                    <div>
-                      <img class="imgecolo" src="images/ecolo.png" alt="logo apple écolo">
-                    </div>
-                  </div>
-                </main>
-                <article class="audio">
-                  <h2>Diffusez de l’audio en streaming
-                    depuis plus de sources, avec AirPlay.</h2>
-                    <div class="icon_audio">
-                      <img src="images/presentation/logo_audio/icon_audible.jpg" alt="Audible">
-                      <img src="images/presentation/logo_audio/icon_livre.jpg" alt="Livre">
-                      <img src="images/presentation/logo_audio/icon_music.jpg" alt="Amazon Music">
-                      <img src="images/presentation/logo_audio/icon_spotify.jpg" alt="Potify">
-                      <img src="images/presentation/logo_audio/icon_apple_music.jpg" alt="Apple Music">
-                      <img src="images/presentation/logo_audio/icon_podcast.jpg" alt="Podcast">
-                    </div>
-                  </article>
-                  <div class="ultimate_music">
-                    <h2>The ultimate music authority.</h2>
-                  </div>
-                </main>
-                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-                <script>
-                  AOS.init();
-                </script>
-                <script src="scripts/achat.js">
-                </script>
-              </body>
-              </html>
-              
+                   <br>App Maison et HomeKit</br></p>
+           </div>
+           <div class="info">
+               <h2>Sans-fil</h2>
+               <p><br>Wi‑Fi 802.11ac avec MIMO</br>
+                   <br>Accès invité direct3</br>
+                   <br>Bluetooth 5.0</br>
+                   <br>Prise en charge des enceintes dans plusieurs pièces avec AirPlay 2</br></p>
+           </div>
+           <div class="info">
+               <h2>Configuration requise</h2>
+               <p><br>iPhone 5s (ou modèle ultérieur)</br><br> iPad Pro</br><br> iPad (5e génération ou ultérieure)</br><br>iPad Air (ou modèle ultérieur)</br><br> iPad mini 2 (ou modèle ultérieur) ou iPod touch (6e génération) avec iOS 12 (ou version ultérieure)</br>
+                  <br> Accès Internet par Wi‑Fi 802.11</br>
+                  <br> Abonnement Apple Music requis pour bénéficier de l’ensemble des fonctionnalités musicales</br></p>
+           </div>
+           <div class="info">
+              <h2>Alimentation</h2>
+              <p></br>Bloc d’alimentation intégré</br>
+                </br> Tension : de 100 à 240 V CA</br>
+                 </br>Fréquence : de 50 à 60 Hz</br>
+              <br>Température d’utilisation : de 0 à 35 °C</br>
+              <br>Température de rangement : de -20 à 45 °C</br>
+              <br>Humidité relative : de 5 à 90 % sans condensation</br>
+            <br>Altitude maximale d’utilisation : testé jusqu’à 3 000 m</br>
+              <br>Altitude maximale de rangement : 4 500 m</br>
+                <br>Altitude maximale de transport : 10 500 m</br></p>
+           </div>
+         </div>
+         <div class="textcoffimg">
+           <div class="textcoff container">
+           <div class="titlecof">
+         <p>Contenu du coffret</p>
+            </div>
+            <div class="boit">
+            <div class="boite">
+         <p>Homepod</p>
+         <p>Documentation</p>
+         </div>
+       </div>
+     </div>
+     </div>
+     <div class="colo container">
+         <div class="txtcolo">
+         <div class="titlecoff">
+           <p>HomePod ECOLO</p>
+         </div>
+           <div class="ecolo">
+                <p>Pour mesurer avec précision son impact sur la planète, Apple tient compte de chaque étape du cycle de vie de ses produits.
+                 Le HomePod incarne l’engagement durable d’Apple pour la protection de l’environ­nement. Afin de réduire son impact sur l’environ­nement, il a été conçu avec les caractéristiques suivantes :
+                 Sans retardateurs de flamme bromés
+                 Sans PVC
+                 Sans béryllium
+                 Conforme à la norme ENERGY STAR version 3.0 en matière d’audio et de vidéo</p>
+             </div>
+         </div>
+           <div>
+               <img class="imgecolo" src="images/ecolo.png" alt="logo apple écolo">
+             </div>
+           </div>
+       </main>
+           <article class="audio">
+               <h2>Diffusez de l’audio en streaming
+                       depuis plus de sources, avec AirPlay.</h2>
+               <div class="icon_audio">
+                   <img src="images/presentation/logo_audio/icon_audible.jpg" alt="Audible">
+                   <img src="images/presentation/logo_audio/icon_livre.jpg" alt="Livre">
+                   <img src="images/presentation/logo_audio/icon_music.jpg" alt="Amazon Music">
+                   <img src="images/presentation/logo_audio/icon_spotify.jpg" alt="Potify">
+                   <img src="images/presentation/logo_audio/icon_apple_music.jpg" alt="Apple Music">
+                   <img src="images/presentation/logo_audio/icon_podcast.jpg" alt="Podcast">
+               </div>
+           </article>
+           <div class="ultimate_music">
+             <h2>The ultimate music authority.</h2>
+           </div>
+          </main>
+        <script src="scripts/achat.js">
+        </script>
+      </body>
+  </html>

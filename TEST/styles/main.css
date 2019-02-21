@@ -11,10 +11,61 @@ body {
     margin: 0 auto;
 }
 
-img{
-    max-width: 100%;
-  }
+/* HEADER */
 
+header{
+    background-color: #333333;
+    
+}
+
+header img {
+    width: 36px;
+}
+
+.containerMenu1 {
+    width: 1024px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .containerMenu2 a {
+    margin: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+header nav ul .button_achat{
+    background-color:#0171C7;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+header nav ul .button_achat a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header nav ul li a.current, nav li a:hover{
+    border-bottom:1px solid #ffffff;
+}
 
 /* HEADER */
 
@@ -27,8 +78,8 @@ header img {
     width: 36px;
 }
 
-header nav {
-    width: 960px;
+header .containerMenu1 {
+    width: 1024px;
     height: 48px;
     margin: 0 auto;
     display: flex;
@@ -36,7 +87,12 @@ header nav {
     justify-content: space-between;
 }
 
-header .menu .container_flex {
+header .containerMenu2 a {
+    margin: 10px;
+}
+
+
+header nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
@@ -45,20 +101,20 @@ header .menu .container_flex {
 header nav ul li a {
     text-decoration: none;
     color: white;
-    margin-left: 15px;
+    margin: 10px;
     font-size: 18px;
 }
 
 header nav ul .button_achat{
     background-color:#0171C7;
     border-radius: 15px;
-    padding: 0 10px;
     color: white;
     border: none;
     text-decoration: none;
 }
 
 header nav ul .button_achat a {
+    text-decoration: none;
     color: white;
     font-size: 18px;
 }
@@ -70,20 +126,22 @@ header nav ul li a.current, nav li a:hover{
 /* HEADER */
 
 /* MAIN */
-
+.premier {
+    margin-top: 50px;
+}
 .premierPos {
     display: flex;
     justify-content: space-between;
 }
 
 .premier_titre_texte {
-    margin-top: 15%;
+    margin-top: 0px;
     width: 400px;
 }
 
 .premier_titre_texte h1{
     font-size: 40px;
-    line-height: 45px;
+    line-height: 20px;
     
 }
 
@@ -93,18 +151,33 @@ header nav ul li a.current, nav li a:hover{
 }
 
 .premier_titre_image {
-    margin-top: 5%;
+    margin-top: 0px;
     margin-right: 0;
-    width: 400px;   
+    width: 420px;
+    height: 552px;
+    background: url("../images/presentation/homepod_carac.png" )no-repeat;
+    
 }
 
-.video_pub  a {
-    text-decoration: none;
-    font-size: 15px;
-    padding: 5px 10px;
+.premier_titre_texte a {
+    background-color:#0171C7;
     border-radius: 15px;
-    border: 1px solid #0171C7;
+    color: white;
+    border: none;
+    text-decoration: none;
 }
+
+.premier_titre_texte a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+
+
 
 .deuxiemePos {
     display: flex;
@@ -113,7 +186,7 @@ header nav ul li a.current, nav li a:hover{
 }
 
 .deuxieme_titre_texte {
-    margin-top: 70px;
+    margin-top: 200px;
     width: 400px;
 }
 
@@ -129,9 +202,8 @@ header nav ul li a.current, nav li a:hover{
 }
 
 .deuxieme_titre_image {
-    margin-top: 0;
+    margin-top: 0px;
     margin-right: 0;
-    width: 500px; 
 }
 
 .deuxieme_titre_image img {
@@ -159,6 +231,20 @@ header nav ul li a.current, nav li a:hover{
     will-change: left;
 }
 
+.slider{
+    margin:20px 0px;
+    width:100%;
+    height:520px;
+    position:relative;
+    overflow:hidden;
+}
+
+.sliderContainer{
+    position:absolute;
+    display:flex;
+    transition:ease-in 0.5s all;
+    will-change: left;
+}
 .sliderContainer div{
     position: relative;
 }
@@ -251,25 +337,8 @@ section > h2 {
     cursor: pointer;
     
 }
-
-
-.minititle .info h3::after {
-    content:"v";
-    float: right;
-    transition: all .3s linear;
-    width:13px;
-    height:19px;
-    
-    
-}
-
-.info .is_open h3::after{
-	transform: rotate(180deg);
-}
-
 .minititle .info p{
     overflow: hidden;
-    color: #1d1d11b0;
     transition: all .3s;
 }
 
@@ -285,7 +354,6 @@ section > h2 {
 .icon_audio {
     display: flex;
     justify-content: center;
-
 }
 .icon_audio img {
     margin: 0 5px;
