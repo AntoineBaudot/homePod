@@ -1,4 +1,5 @@
 
+
 //DEFILEMENT
 const questions = document.querySelectorAll(".info")
 
@@ -136,6 +137,3 @@ for(let i = 0; i< points.length; i++){
         }
         )
 }
-
-
-

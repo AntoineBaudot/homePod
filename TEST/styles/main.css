@@ -10,6 +10,7 @@ body {
     width: 960px;
     margin: 0 auto;
 }
+/*---------------Header--------------*/
 
 header{
     background-color: #333333;
@@ -17,7 +18,7 @@ header{
 }
 
 header img {
-    width: 36px;
+    width: 25px;
 }
 
 header nav {
@@ -39,7 +40,7 @@ header nav ul li a {
     text-decoration: none;
     color: white;
     margin-left: 15px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 header nav ul .button_achat{
@@ -77,7 +78,7 @@ header nav ul li a.current, nav li a:hover{
 .premier_titre_texte h1{
     font-size: 40px;
     line-height: 35px;
-    
+
 }
 
 .premier_titre_texte p{
@@ -123,7 +124,7 @@ header nav ul li a.current, nav li a:hover{
 .deuxieme_titre_texte h1{
     font-size: 32px;
     line-height: 38px;
-    
+
 }
 
 .deuxieme_titre_texte p{
@@ -192,7 +193,7 @@ header nav ul li a.current, nav li a:hover{
     font-size: 25px;
     color: black;
     background-color: rgba(255, 255, 255, 0);
-    
+
 }
 
 .pagination{
@@ -255,7 +256,7 @@ section > h2 {
 .minititle .info {
     width: 30%;
     cursor: pointer;
-    
+
 }
 
 .minititle .info h2::after {
@@ -264,8 +265,8 @@ section > h2 {
     transition: all .3s linear;
     width:13px;
     height:19px;
-    
-    
+
+
 }
 
 .info .is_open h2::after{
@@ -301,13 +302,13 @@ article> h2 {
 .assistant .assitant_image img{
     margin-top: 0px;
     margin-right: 0;
-    
-    
+
+
 }
 
 .assistant .assistant_text {
     margin-top: 35px;
-    
+
     width: 370px;
 }
 

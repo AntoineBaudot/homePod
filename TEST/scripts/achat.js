@@ -58,6 +58,16 @@ for(let i = 0; i < questions.length; i++){
     })
 }
 
+const buyButton = document.querySelector("#buyButton")
+buyButton.addEventListener("click", function(e){
+  e.preventDefault()
+  document.querySelector(".popup").classList.toggle("active")
+})
+document.querySelector("#closePopup").addEventListener("click", function(e){
+  e.preventDefault()
+  this.parentNode.classList.toggle("active")
+})
+
 const colorSelector = document.querySelectorAll(".color_selector div")
 for(let i = 0; i < colorSelector.length; i++){
     colorSelector[i].addEventListener("click", function(e){
