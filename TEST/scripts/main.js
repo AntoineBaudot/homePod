@@ -1,5 +1,3 @@
-
-
 //DEFILEMENT
 const questions = document.querySelectorAll(".info")
 
