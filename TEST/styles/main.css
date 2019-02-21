@@ -44,8 +44,8 @@ header nav ul li a {
 
 header nav ul .button_achat{
     background-color:#0171C7;
-    border-radius: 15px;
-    padding: 0 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
     color: white;
     border: none;
     text-decoration: none;

@@ -6,7 +6,6 @@ body {
     color: #444;
 }
 
-
   /*MAIN*/
 
 main img{
@@ -33,7 +32,6 @@ div.title{
 .color_selector_display{
   margin-left: 270px;
   margin-right: 270px;
-  margin-bottom: 5%;
   display: flex;
   flex-direction: column;
 }
@@ -46,26 +44,24 @@ div.title{
   margin-top: 20px;
   cursor: pointer;
   padding: 10px;
-  border:1px solid #000;
-  border-radius: 4px;
 }
-.color_selector .color.active{
-  border-color: blue;
+.color_selector .color.active .button{
+  background: #0171C7;
 }
 .color_selector div .button{
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .button{
   background: lightGray;
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
 }
 .prix{
   display: flex;
   justify-content: center;
-  font-size: 255%;
+  font-size: 230%;
   font-weight: bold;
   color: #1d1d1b;
 
@@ -348,8 +344,7 @@ h1{
   justify-content: space-around;
 }
 .imgecolo{
-  margin-right: 50%;
-  margin-top: 240%;
+  margin-top: 280%;
   height: auto;
   width: auto;
 }
@@ -380,15 +375,66 @@ h1{
     margin-left: 20%;
 }
 .ecolo{
-    margin-left: 15%;
+    margin-left: 18%;
     color:#1d1d1b;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 68%;
+    width: 69%;
 }
 
 .colo{
     display: flex;
     flex-direction: space-between;
+}
+/*
+* -------------CSS POPUP---------------
+*/
+.popup{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 100%;
+  color: #1d1d1b;
+  position: fixed;
+  background: white;
+  z-index:10;
+  top: -100%;left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: all .3s;
+  opacity: 0;
+  padding: 50px 25px;
+  border: 1px solid #CCC;
+  border-radus: 4px;
+
+}
+#closePopup{
+  color: #1d1d1b;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+.popup.active{
+  opacity: 1;
+  top: 50%; left: 50%;
+}
+.redirection{
+  display: flex;
+  justify-content: center;
+}
+#buyButton{
+  color: #1d1d1b;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #1d1d1b;
+  padding : 10px;
+}
+.popup p a{
+  color: #1d1d1b;
+}
+
+.popup h4{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
