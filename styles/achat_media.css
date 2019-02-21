@@ -3,8 +3,30 @@
   .container{
     width:768px;
   }
-
+  .title{
+    margin-right: 22%;
+  }
+  .color_selector_display{
+    margin-right: 50%;
+  }
 }
+@media screen and (min-width:1024px) and (max-width:1366px)
+  {
+    .sstitlecoff{
+      margin-left: 14%;
+    }
+    
+    .prix{
+      margin-right: 20%;
+    }
+    #buyButton{
+      margin-right: 20%;
+    }
+    #hpPres{
+     margin-left: 85px;
+    }
+
+  }
 
 @media screen and (min-width:600px) and (max-width:768px){
   .container{
@@ -55,9 +77,12 @@
 }
 
 
-@media screen and (max-width:600px)
-{
+@media screen and (max-width:600px){
   .container{
+    width:100%;
+  }
+
+  main.container{
     width:100%;
   }
 
