@@ -1,3 +1,4 @@
+
 //DEFILEMENT
 const questions = document.querySelectorAll(".info")
 
@@ -7,9 +8,9 @@ for(let i = 0; i < questions.length; i++){
     curr.setAttribute("data-height", curr.offsetHeight)
     curr.style.height = 0
 
-    questions[i].querySelector("h2").addEventListener("click", function() {
-        if(document.querySelector("h2.is_open") !== null){
-            let openned = document.querySelector("h2.is_open")
+    questions[i].querySelector("h3").addEventListener("click", function() {
+        if(document.querySelector(".info .is_open") !== null){
+            let openned = document.querySelector(".info .is_open")
             openned.parentNode.querySelector("p").style.height = 0
             openned.classList.remove("is_open")
 
@@ -20,11 +21,6 @@ for(let i = 0; i < questions.length; i++){
         this.classList.add("is_open")
     })
 }
-
-
-
-
-
 
 //SLIDER SON
 
