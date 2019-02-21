@@ -1,0 +1,227 @@
+@media screen and (min-width:960px) and (max-width:1024px)
+{
+    .container {
+        width: 960px;
+    }
+    
+    .premier {
+        margin-top: 50px;
+    }
+    .premierPos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .premier_titre_texte {
+        text-align: center;
+    }
+    
+    .premier_titre_texte h1{
+        font-size: 30px;
+        line-height: 35px;
+        width: 320px;
+        margin: 0 auto;
+    }
+    
+    .premier_titre_texte p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .premier_titre_image img{
+        width: 100%;
+    }
+    .premier_titre_image {
+        margin-top: 25px;
+        width: 400px;
+        height: 532px;
+    }
+    
+    .deuxiemePos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .deuxieme_titre_texte {
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .deuxieme_titre_texte h2{
+        font-size: 32px;
+        line-height: 38px;
+        
+    }
+    
+    .deuxieme_titre_texte p{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+    .deuxieme_titre_image {
+        margin-top: 25px;
+        width: 400px;
+        
+    }
+    
+    .deuxieme_titre_image img {
+        margin-top:0;
+        margin-left: 0;
+        width : 400px;
+        height: 400px;
+    }
+
+    /*SLIDER*/
+
+    .slider{
+        margin:20px 0px;
+        width:100%;
+        height:410px;
+        position:relative;
+        overflow:hidden;
+        margin-bottom: 50px;
+    }
+    
+    .sliderContainer{
+        position:absolute;
+        top : 0px;
+        transition:ease-in 0.5s all;
+        will-change: left;
+    }
+    
+    .slider{
+        margin:20px 0px;
+        width:100%;
+        height:520px;
+        position:relative;
+        overflow:hidden;
+    }
+    
+    .sliderContainer{
+        position:absolute;
+        display:flex;
+        transition:ease-in 0.5s all;
+        will-change: left;
+    }
+
+    .sliderContainer img {
+        width: 768px;
+    }
+    .sliderContainer div{
+        position: relative;
+    }
+    .sliderContainer div div{
+        position: absolute;
+        width: 280px;
+        right: 10%;
+        top: 5%;
+    }
+    
+    
+    .left{
+        text-decoration: none;
+        border: none;
+        position: absolute;
+        left: 25px;
+        top: 40%;
+        font-size: 20px;
+        color: black;
+        background-color: none;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .right{
+        text-decoration: none;
+        border: none;
+        position: absolute;
+        right: 20px;
+        top: 40%;
+        font-size: 25px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0);
+    
+    }
+    
+    .pagination{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        right: 0px;
+        bottom: 50px;
+        list-style: none;
+    }
+    
+    .point{
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        border-color: #333333;
+        margin: 0px 5px;
+        background-color: #BCBCBC;
+    }
+    .point.current{
+        background: #333333;
+    }
+
+    /*ARTICLE*/
+    
+    .audio > h2 {
+        padding: 50px;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .assistant {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .assistant .assitant_image img{
+        margin-top: 0px;
+        margin-right: 0;
+        
+        
+    }
+    
+    .assistant .assistant_text {
+        margin-top: 35px;
+        text-align: center;
+        width: 370px;
+    }
+    
+    .assistant .assistant_text h3 {
+        font-size: 25px;
+        line-height: 35px;
+        color: black;
+    }
+    
+    .assistant .assistant_text p {
+        font-size: 15px;
+        line-height: 20px;
+        color: #707070;
+    }
+    
+    
+}
+
+@media screen and (min-width:600px) and (max-width:768px){
+    .container{
+        width:100%;
+    }    
+}
+
+@media screen and (max-width:600px)
+{
+    .container{
+        width:100%;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+}

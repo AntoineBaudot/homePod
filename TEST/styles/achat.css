@@ -24,7 +24,9 @@ main.container{
 
 div.title{
   color: #1d1d1b;
-  text-align: center;
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
   font-size: 30px;
 }
 
@@ -195,7 +197,6 @@ div.music{
   animation-duration: 4s;
   animation-iteration-count: infinite;
  }
-
  @keyframes color_changing_text {
    0%   {color: #f0357c;}
    25%  {color: #f154ff;}
@@ -203,7 +204,6 @@ div.music{
    75%  {color: #37bdde;}
    100% {color: #f0357c;}
  }
-
 div.hey_siri_box p{
   font-size: 18px;
   font-weight: 500;

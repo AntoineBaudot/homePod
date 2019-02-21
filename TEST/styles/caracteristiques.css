@@ -74,7 +74,6 @@ h2{
   animation-duration: 4s;
   animation-iteration-count: infinite;
  }
-
  @keyframes color_changing_text {
    0%   {color: #f0357c;}
    25%  {color: #f154ff;}
@@ -82,7 +81,6 @@ h2{
    75%  {color: #37bdde;}
    100% {color: #f0357c;}
  }
-
 div.hey_siri_box p{
   font-size: 18px;
   font-weight: 500;
