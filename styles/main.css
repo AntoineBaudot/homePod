@@ -16,6 +16,10 @@ body {
 }
 
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
 .container {
     width: 960px;
     margin: 0 auto;
@@ -40,6 +44,9 @@ header{
     top:0px;
     position: fixed;
     z-index: 1;
+    position: fixed;
+    top:0;
+    left: 0;
 }
 
 header img {
