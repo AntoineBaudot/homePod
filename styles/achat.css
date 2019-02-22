@@ -110,25 +110,6 @@ div.music{
   margin-right: 25%;
   margin-bottom: 8%;
 }
-
-/*#musicExample{
-  display: flex;
-  margin-bottom: 80px;
-}
-#musicExample img{
-  width: 90px;
-  height: 90px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin:5px;
-  transition: width 1s, height 1s;
-}
-#musicExample img:hover{
-  width: 140px;
-  height: 140px;
-  z-index: 10;
-}
-*/
 .moving_bar{
   position: relative;
 
@@ -182,39 +163,10 @@ div.music{
   margin: auto;
   z-index: 6;
 }
-/*.hey_siri_box{
-  text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
-}
- blockquote{
-  margin-top: 60px;
-  margin-bottom: 5px;
-  font-size: 35px;
-  font-weight: bold;
-  color: #f0357c;
-  background-image: linear-gradient(to right, #f0357c 100px, #f154ff 200px, #777dff 300px, #37bdde 500px);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-repeat: no-repeat;}*/
-/*  animation-name: color_changing_text;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
- }
- @keyframes color_changing_text {
-   0%   {color: #f0357c;}
-   25%  {color: #f154ff;}
-   50%  {color: #777dff;}
-   75%  {color: #37bdde;}
-   100% {color: #f0357c;}
- }
-div.hey_siri_box p{
-  font-size: 18px;
-  font-weight: 500;
-}*/
+
 
 .audio{
-  margin-top: 7%;
+  
   color:#1d1d1b;
 }
 .audio h2 {
@@ -234,35 +186,16 @@ div.hey_siri_box p{
   width: 76px;
   height: 76px;
   margin: 0 5px;
-  margin-bottom: 80px;
+ 
 }
 .ultimate_music{
   text-align: center;
   font-size: 20px;
   color: #1d1d1b;
-  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-
-/* css caracteristique ancienne page */
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-ol, ul {
-	list-style: none;
-}
-
-h1{
-    display:flex;
-    justify-content: center;
-    margin-top: 100px;
-    color: #1d1d1b;
-    font-size: 400%;
-}
 .buttonn{
     color: #1d1d1b;
     font-size: 150%;
@@ -270,7 +203,7 @@ h1{
     display: flex;
     justify-content: center;
 }
-.containr{
+.container{
     width: 980px;
     margin: 0 auto;
 }
@@ -343,20 +276,25 @@ h1{
   width: 100px;
   margin-top: 25%;
 }
-.titlecolo{
-  display: flex;
-  font-size: 20px;
+.titlecolo {
+  width: 500px;
+  margin-top: 5%;
+  margin: 0 auto;
+  text-align: left;
+
 }
 .imgecolo{
-  margin-top: 280%;
+  margin-top:15%;
   height: auto;
   width: auto;
 }
 
 .txtcolo{
   margin-top: 50%;
-  color:#1d1d1b;
+  display: flex;
+  justify-content: space-between;
 }
+
 .textcoffimg{
     position: relative;
    
@@ -378,19 +316,7 @@ h1{
     position: absolute;
     margin-left: 20%;
 }
-.ecolo{
-    margin-left: 18%;
-    color:#1d1d1b;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 69%;
-}
 
-.colo{
-    display: flex;
-    flex-direction: space-between;
-}
 /*
 * -------------CSS POPUP---------------
 */

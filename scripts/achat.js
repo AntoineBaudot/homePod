@@ -40,9 +40,7 @@ for(let i = 0; i < questions.length; i++){
     let curr = questions[i].querySelector("p")
 
     curr.setAttribute("data-height", curr.offsetHeight)
-    if(!questions[i].querySelector("h2").classList.contains("is_open")){
-        curr.style.height = 0
-    }
+    curr.style.height = 0
 
     questions[i].querySelector("h2").addEventListener("click", function() {
         if(document.querySelector("h2.is_open") !== null){

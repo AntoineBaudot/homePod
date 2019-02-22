@@ -298,9 +298,6 @@ section > h2 {
   content: '-';
 }
 
-.info .is_open h2::after{
-	transform: rotate(180deg);
-}
 .minititle .info p{
     overflow: hidden;
     transition: all .3s;
