@@ -68,35 +68,7 @@
     
 
 @media screen and (max-width:768px){
-    /*MENU*/
-  .hide-on-desktop{
-    display:inline-block;
-  }
-  .menu ul.container_flex{
-    display: none;
-    position: fixed;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
-    background: #FFF;
-    color: black;
-  }
-  .menu ul.container_flex.active{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-    margin:0;
-  }
-  .menu ul.container_flex.active li{
-    margin: 20px 0;
-  }
-  .menu ul.container_flex.active li a:not(.button_achat){
-    color: black;
-    margin: 0;
-  }
+
   main.container{
     width:100%;
     margin:0 auto;
@@ -148,13 +120,14 @@
     text-align: center;
   }
   .imgecolo{
-    margin-top:0%;
+    margin-top:15%;
     height: auto;
     width: auto;
   }
   .textcoffimg{
     position: relative;
-    width: 100%
+    width: 100%;
+    height: auto;
    
 }
 }
