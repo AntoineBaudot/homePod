@@ -20,7 +20,7 @@ main img{
   width: 200px;
 }
 
-main.container{
+container{
   width:960px;
   margin:0 auto;
 }
